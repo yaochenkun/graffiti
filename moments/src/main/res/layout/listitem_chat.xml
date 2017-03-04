@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@drawable/selector_listitem"
+              android:padding="10dp">
+
+    <!--头像-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/chatlistitem_avatar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        fresco:roundedCornerRadius="3dp"
+        fresco:placeholderImage="@drawable/img_defaultavatar"
+        fresco:failureImage="@drawable/img_defaultavatar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--昵称-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/chatlistitem_nickname"
+                style="@style/AvatarText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+            <TextView
+                android:id="@+id/chatlistitem_date"
+                style="@style/ContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <!--最近一条聊天记录-->
+        <TextView
+            android:id="@+id/chatlistitem_content"
+            style="@style/ContentText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

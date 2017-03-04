@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="horizontal"
+              android:padding="10dp">
+
+    <!--头像-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circlelistitem_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        fresco:roundedCornerRadius="3dp"
+        fresco:placeholderImage="@drawable/img_defaultavatar"
+        fresco:failureImage="@drawable/img_defaultavatar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <!--昵称-->
+        <TextView
+            android:id="@+id/circlelistitem_nickname"
+            style="@style/CircleNickName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="姚陈堃"/>
+
+        <!--内容-->
+        <TextView
+            android:id="@+id/circlelistitem_content"
+            style="@style/CircleContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="从今天开始，都监督我，绝不熬夜，发现我晚睡的小伙伴请强制我去碎觉！！重要的事情说三遍"/>
+
+        <!--九宫格图片-->
+        <GridLayout
+            xmlns:fresco="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circlegrid_pictures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            android:rowCount="3">
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_1"
+                android:tag="0"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_2"
+                android:tag="1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_3"
+                android:tag="2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_4"
+                android:tag="3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_5"
+                android:tag="4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_6"
+                android:tag="5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_7"
+                android:tag="6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_8"
+                android:tag="7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="3dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+
+            <com.noahark.moments.ui.view.MaskableImageView
+                android:id="@+id/circlegrid_picture_9"
+                android:tag="8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                android:src="@color/backgrey"
+                fresco:placeholderImage="@color/backgrey"
+                fresco:failureImage="@color/backgrey"
+                fresco:roundedCornerRadius="3dp"/>
+        </GridLayout>
+
+
+        <!--时间 转发 评论 点赞-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp">
+
+            <!--时间-->
+            <TextView
+                android:id="@+id/circlelistitem_time"
+                style="@style/ContentText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016/10/11"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+            <!--删除-->
+            <TextView
+                style="@style/DeleteCircleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除"
+                android:clickable="true"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/circlelistitem_time"
+                android:layout_marginLeft="10dp"/>
+
+            <!--转发-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_forward"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageButton10"
+                android:layout_marginRight="20dp"/>
+
+            <!--评论-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_comment"
+                android:id="@+id/imageButton10"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageButton9"
+                android:layout_marginRight="20dp"/>
+
+
+            <!--点赞-->
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_like"
+                android:id="@+id/imageButton9"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

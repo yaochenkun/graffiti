@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="wheelview-release-">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/wheelview-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/wheelview-release/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

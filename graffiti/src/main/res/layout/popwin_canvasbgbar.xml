@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popwin"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg8Btn"
+                android:background="@drawable/btn_canvasbg8_normal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg9Btn"
+                android:background="@drawable/btn_canvasbg9_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_highlight_frame"
+                android:onClick="onCanvasbg0Btn"
+                android:background="@drawable/btn_canvasbg0_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg1Btn"
+                android:background="@drawable/btn_canvasbg1_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg2Btn"
+                android:background="@drawable/btn_canvasbg2_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg3Btn"
+                android:background="@drawable/btn_canvasbg3_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg4Btn"
+                android:background="@drawable/btn_canvasbg4_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg5Btn"
+                android:background="@drawable/btn_canvasbg5_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg6Btn"
+                android:background="@drawable/btn_canvasbg6_normal" />
+
+            <ImageView
+                android:id="@+id/btn_canvasbg7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCanvasbg7Btn"
+                android:background="@drawable/btn_canvasbg7_normal" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

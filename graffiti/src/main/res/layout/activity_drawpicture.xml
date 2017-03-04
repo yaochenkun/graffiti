@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.noahark.graffiti.ui.view.DrawPictureView
+        android:id="@+id/drawpicture_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+          android:id="@+id/drawpicture_toptoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_processing_title"
+        android:orientation="horizontal" >
+
+        <Button
+             android:id="@+id/drawpicture_refuse"
+            style="@style/GraffitiButton3"
+            android:drawableTop="@drawable/btn_refuse_normal"
+            android:onClick="onDrawPictureBackBtn" />
+
+        <LinearLayout
+            style="@style/GraffitiButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="插入图片"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+             android:id="@+id/drawpicture_sure"
+            style="@style/GraffitiButton3"
+            android:drawableTop="@drawable/btn_sure_normal"
+            android:onClick="onDrawPictureOkBtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drawpicture_downtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/drawpicture_select"
+            style="@style/DrawPictureButton"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/btn_picture_normal"
+            android:onClick="onSelectPictureBtn"
+            android:text="图库" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Msc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/graffiti/libs/Msc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

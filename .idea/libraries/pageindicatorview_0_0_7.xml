@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="pageindicatorview-0.0.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/com.romandanylyk/pageindicatorview/0.0.7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/com.romandanylyk/pageindicatorview/0.0.7/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.romandanylyk/pageindicatorview/0.0.7/9b2a54f062a88c14c14dc6cfbbeabd527096b0c4/pageindicatorview-0.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.noahark.graffiti.ui.view.DrawTextView
+        android:id="@+id/drawtext_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/drawtext_toptoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_processing_title"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/drawtext_refuse"
+            style="@style/GraffitiButton3"
+            android:drawableTop="@drawable/btn_refuse_normal"
+            android:onClick="onDrawtextBackBtn" />
+
+        <LinearLayout
+            style="@style/GraffitiButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="插入文字"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/drawtext_sure"
+            style="@style/GraffitiButton3"
+            android:drawableTop="@drawable/btn_sure_normal"
+            android:onClick="onDrawtextOkBtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/drawtext_downtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/drawtext_content"
+            style="@style/DrawTextButton"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/btn_text_normal"
+            android:onClick="onChangeContentBtn"
+            android:text="内容" />
+
+        <Button
+            android:id="@+id/drawtext_color"
+            style="@style/DrawTextButton"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/btn_colorpicker_normal"
+            android:onClick="onChangeColorBtn"
+            android:text="颜色" />
+    </LinearLayout>
+
+</RelativeLayout>

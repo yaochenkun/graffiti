@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/btn_setlocation"
+        style="@style/NormalText"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/selector_drawerbtn"
+        android:text="@string/activity_gps_btn_setlocation" />
+
+    <Button
+        style="@style/NormalText"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_drawerbtn"
+        android:onClick="onCancelBtn"
+        android:text="@string/activity_gps_btn_cancel" />
+
+    <Button
+        style="@style/NormalText"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/selector_drawerbtn"
+        android:onClick="onClipScreenBtn"
+        android:text="@string/activity_gps_btn_exportmap" />
+
+</RelativeLayout>

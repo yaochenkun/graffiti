@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+            package="com.noahark.moments"
+            android:versionCode="1"
+            android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity android:name="com.noahark.moments.ui.activity.CommunityActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.ChatActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.RelationActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.FindActivity"></activity>
+        <activity
+            android:name="com.noahark.moments.ui.activity.CircleActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.RegisterActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeAvatarActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeNicknameActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeDistrictActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeQRCodeActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeMottoActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.MeSexActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.UserSnapshotActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.UserNoteSettingActivity"></activity>
+        <activity android:name="com.noahark.moments.ui.activity.UserZoneActivity"></activity>
+    </application>
+
+</manifest>

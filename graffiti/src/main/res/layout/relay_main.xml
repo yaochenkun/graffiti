@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.noahark.graffiti.ui.view.CanvasView
+        android:id="@+id/vi_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightgrey"
+        android:src="@drawable/bg_canvas0" />
+
+    <Button
+        android:id="@+id/btn_extend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_extend_normal"
+        android:onClick="onOpenToolsBtn"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+
+        <LinearLayout
+            android:id="@+id/linlay_transbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:id="@+id/btn_rotatepel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onRotatepelBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_rotate_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_zoompel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onZoompelBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_zoom_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_translatepel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onTranslatepelBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_translate_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_deletepel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onDeletepelBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_deletepel_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_copypel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onCopypelBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_copypel_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btn_fillpel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onFillpelBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_fillpel_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img_base_parent_normal"
+                android:onClick="onOpenTransChildren" >
+
+                <ImageView
+                    android:id="@+id/btn_opentranschildren"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_arrow_close" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onTranslatecanvasBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_translate_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_corner"
+                android:onClick="onZoomcanvasBtn" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/btn_zoom_normal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img_base_parent_normal"
+                android:onClick="onOpenScanChildren" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btn_arrow_close" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/sclvi_toptoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_opendrawer"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_opendrawer_normal"
+            android:onClick="onOpenDrawerBtn"
+            android:text="@string/tools_toptitle_txt_opendrawer" />
+
+        <Button
+            android:id="@+id/btn_color"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_colorpicker_normal"
+            android:onClick="onColorBtn"
+            android:text="@string/tools_toptitle_txt_color"
+            android:textColor="#ff298ecb" />
+
+        <Button
+            android:id="@+id/btn_pen"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_pen_normal"
+            android:onClick="onPenBtn"
+            android:text="@string/tools_toptitle_txt_pen" />
+
+        <Button
+            android:id="@+id/btn_openprocessingbar"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_processing_normal"
+            android:onClick="onOpenProcessingbarBtn"
+            android:text="@string/tools_bottomtitle_txt_openprocessingbar" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_clear_normal"
+            android:onClick="onClearBtn"
+            android:text="@string/tools_toptitle_txt_clear" />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_save_normal"
+            android:onClick="onSaveBtn"
+            android:text="@string/tools_toptitle_txt_save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sclvi_downtoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_openpelbar"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_freehand_pressed"
+            android:onClick="onOpenPelbarBtn"
+            android:text="@string/tools_bottomtitle_txt_openpelbar"
+            android:textColor="@color/blue" />
+
+        <Button
+            android:id="@+id/btn_opentransbar"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_selectpel_normal"
+            android:onClick="onOpenTransbarBtn"
+            android:text="@string/tools_bottomtitle_txt_opentransbar" />
+
+        <Button
+            android:id="@+id/btn_opencrossfill"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_crossfill_normal"
+            android:onClick="onOpenCrossfillBtn"
+            android:text="@string/tools_bottomtitle_txt_opencrossfill" />
+
+        <Button
+            android:id="@+id/btn_opencanvasbgbar"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_setbg_normal"
+            android:onClick="onOpenCanvasbgbarBtn"
+            android:text="@string/tools_bottomtitle_txt_opencanvasbgbar" />
+
+        <Button
+            android:id="@+id/btn_opendrawtext"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_text_normal"
+            android:onClick="onOpenDrawtextBtn"
+            android:text="文字" />
+
+        <Button
+            android:id="@+id/btn_opendrawpicture"
+            style="@style/GraffitiButton"
+            android:drawableTop="@drawable/btn_picture_normal"
+            android:onClick="onOpenDrawpictureBtn"
+            android:text="插图" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_undo"
+        android:onClick="onUndoBtn" />
+
+    <Button
+        android:id="@+id/btn_redo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/selector_redo"
+        android:onClick="onRedoBtn" />
+
+</RelativeLayout>

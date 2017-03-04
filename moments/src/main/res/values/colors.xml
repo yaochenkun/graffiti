@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="grey">#999999</color>
+    <color name="textcolor">#ff666666</color>
+    <color name="lightgrey">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="line">#B2B2B2</color>
+    <color name="backgrey">#F8F8F9</color>
+    <color name="tabblue">#6A6AFF</color>
+    <color name="alphapurple">#DDDEDF</color>
+    <color name="listitemgrey">#D8D8D8</color>
+    <color name="circleblue">#5B6E97</color>
+    <color name="circlebluep">#aa5B6E97</color>
+    <color name="deepgrey">#2D3031</color>
+    <color name="listline">#DEDEDE</color>
+    <color name="lightgrey1">#F3F3F5</color>
+</resources>

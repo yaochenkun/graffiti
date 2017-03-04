@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_d6ef240a730c506d913821c91fba76f9c1732ca9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d24be385abf965ef8772c9a743518d2bb6d4a41f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\instant-run_48d27aa9f7e10b6e002ef3cfa3f5731f52443f02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.dinuscxj\recyclerrefreshlayout\2.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8605ab0fcdeb4962561990c68cd39fd0f9f815e5">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.dinuscxj-recyclerrefreshlayout-2.0.3_bfdc5d06121d5f1c924436f2773dce79f0b87c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.github.stfalcon\frescoimageviewer\0.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fb007828ff7890955cb706ccd72105d3c11aa4cb">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.github.stfalcon-frescoimageviewer-0.3.1_bf7ee707fa1eaae91504760243097d98715c6fb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_8dd42855e6f2b3584ccf758d16cc1e1f7252f7a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7c390de6edb10608c77cf4449c6ed35a9848098d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\library-2.4.0_979242d7d18ee79123c19202285b573f14e8f234.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.14.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5bf70f3683146e4875c006624543cb0a13eac91">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.14.1_84419b8501e4a28c57e149116a0268126be623bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a889c98eedf85a7d9b77340e507ab9b60068e136">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.jpardogo.materialtabstrip-library-1.1.1_f3488b10db64f396b1552c8ebe47a79c540d4fa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.romandanylyk\pageindicatorview\0.0.7\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8f69e1879d2599e4c063d99730fc6f9ca9d503b1">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.romandanylyk-pageindicatorview-0.0.7_2cdb59388efbd8c0dca2b388fc149caac18cc3b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ad165b54b8f599e8330aeb38bd52d406df3b717b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\picasso-2.5.2_903ae1e19d4410174d5dc12da602f7364d712ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_c468638ef89042a191dfb256ab9c510fcfac76fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_475f96a240784d7a4bb234f40e43a085ac0213a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.14.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c77602d43223db798b1ca56cf307ab0ee3c0e63f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.14.1_ad36d6a392dedf25e3136f3d3742b167256e1088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\libs\locSDK_3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09224a1883da8b5bd37e766f4fab80570d879898">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\locSDK_3.1_b7d468df4a7080d68fb30da043ab1c68551dac91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_88462990330e9b91ce9d4978aeee004eeda55641.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.github.stfalcon\frescoimageviewer\0.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fb007828ff7890955cb706ccd72105d3c11aa4cb">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.github.stfalcon-frescoimageviewer-0.3.1_bf7ee707fa1eaae91504760243097d98715c6fb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_d6ef240a730c506d913821c91fba76f9c1732ca9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.dinuscxj\recyclerrefreshlayout\2.0.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8605ab0fcdeb4962561990c68cd39fd0f9f815e5">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.dinuscxj-recyclerrefreshlayout-2.0.3_bfdc5d06121d5f1c924436f2773dce79f0b87c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_2e6bed5b5d64df035016fbb6fa02136ef9937645.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\wheelview-release\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="febbdb2d0ffe142ae91bd179e527141bcfd09991">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-wheelview-release_d4ca0cd1631d61e2c08d4df3acaa4754fce52540.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\libs\Msc.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a11eb2b2631d3538589d79e5d85e10d4dc216480">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\Msc_e39fbcd71456c3c753f9f26866999ec1f966606e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_7c390de6edb10608c77cf4449c6ed35a9848098d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.14.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cf5e2940501f8f7b9175df6491cebb84f5690f14">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.14.1_c2b29a8960c20104a57973ace6ada637a0001940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_84f035fe8e5a38763c2d1ab56f1418e21d408d88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_1876230d3f7d6ee00ddcb27ec6ceb963623f7c02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\library-2.4.0_979242d7d18ee79123c19202285b573f14e8f234.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\libs\baidumapapi_v2_4_1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f09ff30981f3430534c6fce3bd9fea071d93f513">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\baidumapapi_v2_4_1_0737d0cc670c1758e9847288767d6f4fe08b67eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ad165b54b8f599e8330aeb38bd52d406df3b717b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\picasso-2.5.2_903ae1e19d4410174d5dc12da602f7364d712ff3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\libs\locSDK_3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09224a1883da8b5bd37e766f4fab80570d879898">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\locSDK_3.1_b7d468df4a7080d68fb30da043ab1c68551dac91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.14.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c77602d43223db798b1ca56cf307ab0ee3c0e63f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.14.1_ad36d6a392dedf25e3136f3d3742b167256e1088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_475f96a240784d7a4bb234f40e43a085ac0213a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_c468638ef89042a191dfb256ab9c510fcfac76fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_88462990330e9b91ce9d4978aeee004eeda55641.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_d937bfd861495f909192c3e3bc6dab6c397f66b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\wheelview-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="febbdb2d0ffe142ae91bd179e527141bcfd09991">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\intermediates-exploded-aar-wheelview-release_d4ca0cd1631d61e2c08d4df3acaa4754fce52540.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_af65b12fc8b53e1d4d10a50903bede1850f264ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.14.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b881010e06dc39be15b7465cd16492eedbab246f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.14.1_94ac0cc45caf712defa3433a37284a5e2a372cb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_a6985f2e6e90d42613b44f4251fe887a0081d952.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_749fb42aa2093b9632ca15c3dd673fb6f96f3c20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\libs\Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a11eb2b2631d3538589d79e5d85e10d4dc216480">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\Msc_e39fbcd71456c3c753f9f26866999ec1f966606e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2eab638eae6da9c6cd4ffd30ede5611cf2492aac">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\instant-run-bootstrap_4730ccae6bdaa7587aef3fd0f0fec30c0e47654e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_84f035fe8e5a38763c2d1ab56f1418e21d408d88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_764d215f753b88266b2a257a67df88ee98a42dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_1876230d3f7d6ee00ddcb27ec6ceb963623f7c02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\me.relex\photodraweeview\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="85ba4b204e5ee55b4e5e8995c5d143447b851fb4">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\me.relex-photodraweeview-1.1.2_21f98497524b5c057984f0329e2c00bb579a4a98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_6eb456178e96f0a841cc9c2688d30902536d77a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.larswerkman\HoloColorPicker\1.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffaf68fa06f0339acf8f44d7b8c21d5c0501692b">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.larswerkman-HoloColorPicker-1.5_9478c6104ae9e105492b2a5ba83ef8618723bdb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.14.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8795af3e130206443f2d5ed45f1b26067aff70dc">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.14.1_8db2fc19c48926bd9cd4b8177fc421ef4d2477c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.14.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cf5e2940501f8f7b9175df6491cebb84f5690f14">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.14.1_c2b29a8960c20104a57973ace6ada637a0001940.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.larswerkman\HoloColorPicker\1.5\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffaf68fa06f0339acf8f44d7b8c21d5c0501692b">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.larswerkman-HoloColorPicker-1.5_9478c6104ae9e105492b2a5ba83ef8618723bdb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.chanven.lib\cptr\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8647c0362ce323b236f7b7610c489bc69acf99ac">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.chanven.lib-cptr-1.1.0_fa2d2e0f8faec21430fab1bc7405b250f2a16c07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\libs\baidumapapi_v2_4_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f09ff30981f3430534c6fce3bd9fea071d93f513">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\baidumapapi_v2_4_1_0737d0cc670c1758e9847288767d6f4fe08b67eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_faae7ef669d2a0bc516fc33127f0dd90488f52f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_d937bfd861495f909192c3e3bc6dab6c397f66b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_af65b12fc8b53e1d4d10a50903bede1850f264ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\cn.bingoogolapple\bga-refreshlayout\1.1.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae13fcdb2db8751cee77b12c51987c226eaf005e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\cn.bingoogolapple-bga-refreshlayout-1.1.6_f9d6da8de1340baf54eb35a89e52998c85d620df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fdd30acf59e7e13c1c53d9d093b59fd7c80cd267.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.14.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e5bf70f3683146e4875c006624543cb0a13eac91">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.14.1_84419b8501e4a28c57e149116a0268126be623bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.14.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b881010e06dc39be15b7465cd16492eedbab246f">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.14.1_94ac0cc45caf712defa3433a37284a5e2a372cb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\me.relex\photodraweeview\1.1.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="85ba4b204e5ee55b4e5e8995c5d143447b851fb4">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\me.relex-photodraweeview-1.1.2_21f98497524b5c057984f0329e2c00bb579a4a98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_764d215f753b88266b2a257a67df88ee98a42dc3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.jpardogo.materialtabstrip\library\1.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a889c98eedf85a7d9b77340e507ab9b60068e136">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.jpardogo.materialtabstrip-library-1.1.1_f3488b10db64f396b1552c8ebe47a79c540d4fa5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.14.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8795af3e130206443f2d5ed45f1b26067aff70dc">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.14.1_8db2fc19c48926bd9cd4b8177fc421ef4d2477c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_749fb42aa2093b9632ca15c3dd673fb6f96f3c20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.1.0_8dd42855e6f2b3584ccf758d16cc1e1f7252f7a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_6eb456178e96f0a841cc9c2688d30902536d77a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_a6985f2e6e90d42613b44f4251fe887a0081d952.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.romandanylyk\pageindicatorview\0.0.7\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8f69e1879d2599e4c063d99730fc6f9ca9d503b1">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.romandanylyk-pageindicatorview-0.0.7_2cdb59388efbd8c0dca2b388fc149caac18cc3b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.chanven.lib\cptr\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8647c0362ce323b236f7b7610c489bc69acf99ac">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.chanven.lib-cptr-1.1.0_fa2d2e0f8faec21430fab1bc7405b250f2a16c07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ken\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_faae7ef669d2a0bc516fc33127f0dd90488f52f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\cn.bingoogolapple\bga-refreshlayout\1.1.6\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae13fcdb2db8751cee77b12c51987c226eaf005e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\cn.bingoogolapple-bga-refreshlayout-1.1.6_f9d6da8de1340baf54eb35a89e52998c85d620df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_2e6bed5b5d64df035016fbb6fa02136ef9937645.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="F:\MyProgram\Android\Graffiti\graffiti\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fdd30acf59e7e13c1c53d9d093b59fd7c80cd267.jar" />
+    </item>
+
+</items>

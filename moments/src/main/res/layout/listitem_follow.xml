@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/selector_listitem"
+              android:orientation="horizontal"
+              android:padding="10dp">
+
+    <!--头像-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/followlistitem_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        fresco:failureImage="@drawable/img_defaultavatar"
+        fresco:placeholderImage="@drawable/img_defaultavatar"
+        fresco:roundedCornerRadius="3dp"/>
+
+    <!--昵称-->
+
+    <TextView
+        android:id="@+id/followlistitem_nickname"
+        style="@style/AvatarText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"/>
+
+
+</LinearLayout>

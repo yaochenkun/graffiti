@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="GraffitiButton">
+        <item name="android:textSize">@dimen/mainGraffitiButtonTextSize</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/selector_graffitibutton</item>
+        <item name="android:paddingTop">@dimen/mainGraffitiButtonPaddingTop</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff181e2a</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:drawablePadding">-5dp</item>
+    </style>
+
+    <style name="DayText">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MeText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CircleNickName">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/circleblue</item>
+    </style>
+
+    <style name="CircleContent">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ContentText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/textcolor</item>
+    </style>
+
+    <style name="AvatarText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="UserZoneText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MeEditText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/textcolor</item>
+    </style>
+
+    <style name="DeleteCircleText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/circleblue</item>
+    </style>
+
+    <style name="TabButton">
+        <item name="android:textSize">11.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/tabtext</item>
+        <item name="android:paddingTop">@dimen/mainGraffitiButtonPaddingTop</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingBottom">4.0dp</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColorHint">@color/line</item>
+    </style>
+
+    <style name="CommonButton">
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/shape_radiusbtn</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

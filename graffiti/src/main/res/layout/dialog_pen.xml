@@ -1,0 +1,295 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <com.noahark.graffiti.ui.view.PeneffectView
+        android:id="@+id/vi_peneffect"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/lightyellow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.40"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:text="@string/dialog_pen_txt_width" />
+
+        <SeekBar
+            android:id="@+id/seekbar_penwidth"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="2"
+            android:progressDrawable="@drawable/seekbar_penwidth"
+            android:thumb="@drawable/thumb_penwidth_normal" />
+
+        <TextView
+            style="@style/NormalText"
+            android:id="@+id/textvi_penwidth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.40"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:text="@string/dialog_pen_txt_initialwidth" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_pen_txt_shape"
+            android:textColor="@color/blue" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blue" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="8" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape1"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_origin_normal"
+                    android:text="@string/dialog_pen_txt_shape_fullline"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape2"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_dot1_normal"
+                    android:text="@string/dialog_pen_txt_shape_dottedline1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape3"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_dot2_normal"
+                    android:text="@string/dialog_pen_txt_shape_dottedline2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape4"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_lightning_normal"
+                    android:text="@string/dialog_pen_txt_shape_lightningline" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:weightSum="8" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape5"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_circle_normal"
+                    android:text="@string/dialog_pen_txt_shape_circleline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape6"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_rect_normal"
+                    android:text="@string/dialog_pen_txt_shape_rectline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape7"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_brush_normal"
+                    android:text="@string/dialog_pen_txt_shape_brushline" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_penshape8"
+                    style="@style/PenButton"
+                    android:drawableTop="@drawable/btn_shape_markpen_normal"
+                    android:text="@string/dialog_pen_txt_shape_markerline" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_pen_txt_effect"
+            android:textColor="@color/blue" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blue" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="8" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_peneffect1"
+                style="@style/PenButton"
+                android:drawableTop="@drawable/btn_effect_origin_normal"
+                android:text="@string/dialog_pen_txt_effect_full" 
+                android:textColor="@color/blue"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_peneffect2"
+                style="@style/PenButton"
+                android:drawableTop="@drawable/btn_effect_dim_normal"
+                android:text="@string/dialog_pen_txt_effect_blur" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_peneffect3"
+                style="@style/PenButton"
+                android:drawableTop="@drawable/btn_effect_edge_normal"
+                android:text="@string/dialog_pen_txt_effect_hollow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_peneffect4"
+                style="@style/PenButton"
+                android:drawableTop="@drawable/btn_effect_relievo_normal"
+                android:text="@string/dialog_pen_txt_effect_relief" />
+        </LinearLayout>
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_pen_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/selector_ok" />
+    </RelativeLayout>
+
+</LinearLayout>

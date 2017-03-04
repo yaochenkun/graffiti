@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/drawtext_toptoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_processing_title"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/drawtext_refuse"
+            style="@style/GraffitiButton3"
+            android:drawableTop="@drawable/btn_refuse_normal"
+            android:onClick="onProcessingBackBtn" />
+
+        <LinearLayout
+            style="@style/GraffitiButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="特效渲染"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/drawtext_sure"
+            style="@style/GraffitiButton3"
+            android:drawableTop="@drawable/btn_sure_normal"
+            android:onClick="onProcessingOkBtn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.97"
+        android:background="@drawable/bg_processing"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/vi_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_popwin_toolbar"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_style_youhua"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_youhua_normal"
+                android:onClick="onYouhuaStyleBtn"
+                android:text="油画" />
+
+            <Button
+                android:id="@+id/btn_style_sumiao"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_sumiao_normal"
+                android:onClick="onSumiaoStyleBtn"
+                android:text="@string/processing_btn_sumiao" />
+
+            <Button
+                android:id="@+id/btn_style_rommantic"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_rommantic_normal"
+                android:onClick="onRommanticStyleBtn"
+                android:text="浪漫" />
+
+            <Button
+                android:id="@+id/btn_style_colorful"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_colorful_normal"
+                android:onClick="onColorfulStyleBtn"
+                android:text="彩铅" />
+
+            <Button
+                android:id="@+id/btn_style_flower"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_flower_normal"
+                android:onClick="onFlowerStyleBtn"
+                android:text="花朵" />
+
+            <Button
+                android:id="@+id/btn_style_yuantu"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_yuantu_normal"
+                android:onClick="onYuanTuStyleBtn"
+                android:text="@string/processing_btn_yuantu" />
+
+            <Button
+                android:id="@+id/btn_style_huaijiu"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_huaijiu_normal"
+                android:onClick="onHuaijiuStyleBtn"
+                android:text="@string/processing_btn_huaijiu" />
+
+            <Button
+                android:id="@+id/btn_style_heibai"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_heibai_normal"
+                android:onClick="onHeibaiStyleBtn"
+                android:text="@string/processing_btn_heibai" />
+
+            <Button
+                android:id="@+id/btn_style_dipian"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_dipian_normal"
+                android:onClick="onDipianStyleBtn"
+                android:text="@string/processing_btn_dipian" />
+
+            <Button
+                android:id="@+id/btn_style_jimu"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_jimu_normal"
+                android:onClick="onJimuStyleBtn"
+                android:text="@string/processing_btn_jimu" />
+
+            <Button
+                android:id="@+id/btn_style_lianhuanhua"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_lianhuanhua_normal"
+                android:onClick="onLianhuanhuaStyleBtn"
+                android:text="@string/processing_btn_lianhuanhua" />
+
+            <Button
+                android:id="@+id/btn_style_ruihua"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_ruihua_normal"
+                android:onClick="onRuihuaStyleBtn"
+                android:text="@string/processing_btn_ruihua" />
+
+            <Button
+                android:id="@+id/btn_style_xiangsu"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_xiangsu_normal"
+                android:onClick="onXiangsuStyleBtn"
+                android:text="像素" />
+
+            <Button
+                android:id="@+id/btn_style_pencil"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_pencil_normal"
+                android:onClick="onPencilStyleBtn"
+                android:text="素铅" />
+
+            <Button
+                android:id="@+id/btn_style_oxpaper"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_oxpaper_normal"
+                android:onClick="onOxpaperStyleBtn"
+                android:text="牛皮纸" />
+
+            <Button
+                android:id="@+id/btn_style_nick"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_nick_normal"
+                android:onClick="onNickStyleBtn"
+                android:text="刻痕" />
+
+            <Button
+                android:id="@+id/btn_style_light"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_light_normal"
+                android:onClick="onLightStyleBtn"
+                android:text="光晕" />
+
+            <Button
+                android:id="@+id/btn_style_star"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_star_normal"
+                android:onClick="onStarStyleBtn"
+                android:text="星空" />
+
+            <Button
+                android:id="@+id/btn_style_sunshine"
+                style="@style/GraffitiButton"
+                android:drawableTop="@drawable/btn_sunshine_normal"
+                android:onClick="onSunshineStyleBtn"
+                android:text="阳光" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

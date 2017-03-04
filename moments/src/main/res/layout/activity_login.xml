@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alphapurple"
+    android:orientation="vertical">
+
+
+    <!--头像-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderColor="#FCFCFC"
+        fresco:roundingBorderWidth="6dp"
+        fresco:placeholderImage="@drawable/img_defaultavatar"
+        fresco:failureImage="@drawable/img_defaultavatar"/>
+
+
+    <!--帐号密码-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:layout_alignLeft="@+id/view"
+        android:layout_below="@+id/profile_image"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/edittext_login_username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:hint="帐号/手机/邮箱"
+            style="@style/EditText"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_editclear"
+            android:onClick="onUsernameEditClearBtn"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:background="@color/lightgrey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/edittext_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:hint="密码"
+            android:inputType="textPassword"
+            style="@style/EditText"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_editclear"
+            android:onClick="onPasswordEditClearBtn"/>
+    </LinearLayout>
+
+    <!--登录-->
+    <Button
+        style="@style/CommonButton"
+        android:layout_width="290dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onLoginBtn"
+        android:text="登录"
+        android:id="@+id/button2"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"/>
+
+
+    <!--新用户注册-->
+    <TextView
+        style="@style/CircleNickName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有帐号？去注册"
+        android:onClick="onEnterRegisterBtn"
+        android:clickable="true"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

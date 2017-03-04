@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="recyclerrefreshlayout-2.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/com.dinuscxj/recyclerrefreshlayout/2.0.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/com.dinuscxj/recyclerrefreshlayout/2.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dinuscxj/recyclerrefreshlayout/2.0.3/44a8aeda68d9394f92b5298a634aa4cc3ebccdab/recyclerrefreshlayout-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

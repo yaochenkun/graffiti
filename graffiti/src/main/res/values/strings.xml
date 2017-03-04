@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">意绘</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="processing_btn_yuantu">原图</string>
+    <string name="processing_btn_huaijiu">怀旧</string>
+    <string name="processing_btn_heibai">黑白</string>
+    <string name="processing_btn_dipian">底片</string>
+    <string name="processing_btn_jimu">积木</string>
+    <string name="processing_btn_lianhuanhua">连环画</string>
+    <string name="processing_btn_ruihua">锐化</string>
+    <string name="processing_btn_sumiao">素描</string>
+    <string name="dialog_colorpicker_txt_alpha">透明度</string>
+    <string name="dialog_colorpicker_txt_saturation">饱和度</string>
+    <string name="dialog_colorpicker_txt_value">深浅度</string>
+    <string name="dialog_pen_txt_width">粗细</string>
+    <string name="dialog_pen_txt_initialwidth">1</string>
+    <string name="dialog_pen_txt_shape">线形</string>
+    <string name="dialog_pen_txt_shape_fullline">实线</string>
+    <string name="dialog_pen_txt_shape_dottedline1">虚线</string>
+    <string name="dialog_pen_txt_shape_dottedline2">点划线</string>
+    <string name="dialog_pen_txt_shape_lightningline">闪电</string>
+    <string name="dialog_pen_txt_shape_circleline">球形</string>
+    <string name="dialog_pen_txt_shape_rectline">方形</string>
+    <string name="dialog_pen_txt_shape_brushline">毛笔</string>
+    <string name="dialog_pen_txt_shape_markerline">马克笔</string>
+    <string name="dialog_pen_txt_effect">特效</string>
+    <string name="dialog_pen_txt_effect_full">实心</string>
+    <string name="dialog_pen_txt_effect_blur">模糊</string>
+    <string name="dialog_pen_txt_effect_hollow">空心</string>
+    <string name="dialog_pen_txt_effect_relief">浮雕</string>
+    <string name="drawer_btn_closedrawer">返回画布</string>
+    <string name="drawer_btn_share">分享</string>
+    <string name="drawer_btn_gallery">我的画廊</string>
+    <string name="drawer_btn_help">帮助</string>
+    <string name="fragment_gallery_txt_title">我的画廊</string>
+    <string name="fragment_help_txt_title">帮助</string>
+    <string name="tools_toptitle_txt_opendrawer">抽屉</string>
+    <string name="tools_toptitle_txt_color">颜色</string>
+    <string name="tools_toptitle_txt_pen">笔触</string>
+    <string name="tools_toptitle_txt_clear">清空</string>
+    <string name="tools_toptitle_txt_save">保存</string>
+    <string name="tools_bottomtitle_txt_openpelbar">绘图</string>
+    <string name="tools_bottomtitle_txt_opentransbar">编辑</string>
+    <string name="tools_bottomtitle_txt_opencrossfill">填充</string>
+    <string name="tools_bottomtitle_txt_opencanvasbgbar">背景</string>
+    <string name="tools_bottomtitle_txt_openprocessingbar">特效</string>
+    <string name="activity_gps_btn_setlocation">定位</string>
+    <string name="activity_gps_btn_cancel">退出</string>
+    <string name="activity_gps_btn_exportmap">导出图片</string>
+
+    <!-- Strings related to login -->
+
+</resources>

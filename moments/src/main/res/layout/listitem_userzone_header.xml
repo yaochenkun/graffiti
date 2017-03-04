@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/deepgrey"
+            android:gravity="center">
+        </LinearLayout>
+    </FrameLayout>
+
+    <!--头像-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/avatar_userzone_imgvi"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="right|bottom"
+        fresco:failureImage="@drawable/img_defaultavatar"
+        fresco:placeholderImage="@drawable/img_defaultavatar"
+        fresco:roundAsCircle="true"
+        fresco:roundingBorderColor="#FCFCFC"
+        fresco:roundingBorderWidth="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:onClick="onEnterUserSnapshotBtn"/>
+</RelativeLayout>

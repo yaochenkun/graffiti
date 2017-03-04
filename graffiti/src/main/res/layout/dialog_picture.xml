@@ -1,0 +1,439 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_caihong"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_caihong"
+                android:text="彩虹" />
+
+            <Button
+                android:id="@+id/btn_liwu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_liwu"
+                android:text="礼物" />
+
+            <Button
+                android:id="@+id/btn_xianhua"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_xianhua"
+                android:text="鲜花" />
+
+            <Button
+                android:id="@+id/btn_shuidi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_shuidi"
+                android:text="水滴" />
+
+            <Button
+                android:id="@+id/btn_zhaoxiangji"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_zhaoxiangji"
+                android:text="照相机" />
+
+            <Button
+                android:id="@+id/btn_yaoshi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_yaoshi"
+                android:text="钥匙" />
+
+            <Button
+                android:id="@+id/btn_zifu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_zifu"
+                android:text="字符" />
+
+            <Button
+                android:id="@+id/btn_yusan"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_yusan"
+                android:text="雨伞" />
+
+            <Button
+                android:id="@+id/btn_xinfeng"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_xinfeng"
+                android:text="信封" />
+
+            <Button
+                android:id="@+id/btn_yonghu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_yonghu"
+                android:text="用户" />
+
+            <Button
+                android:id="@+id/btn_sanjiaoban"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_sanjiaoban"
+                android:text="三角板" />
+
+            <Button
+                android:id="@+id/btn_huojian"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_huojian"
+                android:text="火箭" />
+
+            <Button
+                android:id="@+id/btn_jianpan"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_jianpan"
+                android:text="键盘" />
+
+            <Button
+                android:id="@+id/btn_jiandao"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_jiandao"
+                android:text="剪刀" />
+
+            <Button
+                android:id="@+id/btn_jiangbei"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_jiangbei"
+                android:text="奖杯" />
+
+            <Button
+                android:id="@+id/btn_huihua"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_huihua"
+                android:text="对话" />
+
+            <Button
+                android:id="@+id/btn_ditie"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_ditie"
+                android:text="地铁" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_shouji"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_shouji"
+                android:text="手机" />
+
+            <Button
+                android:id="@+id/btn_baizhi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_baizhi"
+                android:text="白纸" />
+
+            <Button
+                android:id="@+id/btn_bianqian"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_bianqian"
+                android:text="便签" />
+
+            <Button
+                android:id="@+id/btn_keche"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_keche"
+                android:text="客车" />
+
+            <Button
+                android:id="@+id/btn_tingtong"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_tingtong"
+                android:text="听筒" />
+
+            <Button
+                android:id="@+id/btn_diqiu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_diqiu"
+                android:text="地球" />
+
+            <Button
+                android:id="@+id/btn_dingwei"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_dingwei"
+                android:text="定位" />
+
+            <Button
+                android:id="@+id/btn_duoyun"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_duoyun"
+                android:text="多云" />
+
+            <Button
+                android:id="@+id/btn_bingzhuangtu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_bingzhuangtu"
+                android:text="饼状图" />
+
+            <Button
+                android:id="@+id/btn_fanchuan"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_fanchuan"
+                android:text="帆船" />
+
+            <Button
+                android:id="@+id/btn_fangdajing"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_fangdajing"
+                android:text="放大镜" />
+
+            <Button
+                android:id="@+id/btn_bangbangtang"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_bangbangtang"
+                android:text="棒棒糖" />
+
+            <Button
+                android:id="@+id/btn_gaogenxie"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_gaogenxie"
+                android:text="高跟鞋" />
+
+            <Button
+                android:id="@+id/btn_feiji"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_feiji"
+                android:text="飞机" />
+
+            <Button
+                android:id="@+id/btn_gongwenbao"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_gongwenbao"
+                android:text="公文包" />
+
+            <Button
+                android:id="@+id/btn_chuzuche"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_chuzuche"
+                android:text="出租车" />
+
+            <Button
+                android:id="@+id/btn_huaban"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_huaban"
+                android:text="画板" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_baozhi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_baozhi"
+                android:text="报纸" />
+
+            <Button
+                android:id="@+id/btn_diannao"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_diannao"
+                android:text="电脑" />
+
+            <Button
+                android:id="@+id/btn_wujiaoxing"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_wujiaoxing"
+                android:text="五角星" />
+
+            <Button
+                android:id="@+id/btn_huakuang"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_huakuang"
+                android:text="画框" />
+
+            <Button
+                android:id="@+id/btn_huabi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_huabi"
+                android:text="画笔" />
+
+            <Button
+                android:id="@+id/btn_kache"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_kache"
+                android:text="卡车" />
+
+            <Button
+                android:id="@+id/btn_lunchuan"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_lunchuan"
+                android:text="轮船" />
+
+            <Button
+                android:id="@+id/btn_pingban"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_pingban"
+                android:text="平板" />
+
+            <Button
+                android:id="@+id/btn_shalou"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_shalou"
+                android:text="沙漏" />
+
+            <Button
+                android:id="@+id/btn_shouyinji"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_shouyinji"
+                android:text="收音机" />
+
+            <Button
+                android:id="@+id/btn_shoubing"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_shoubing"
+                android:text="手柄" />
+
+            <Button
+                android:id="@+id/btn_xiyiji"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_xiyiji"
+                android:text="洗衣机" />
+
+            <Button
+                android:id="@+id/btn_yinxiang"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_yinxiang"
+                android:text="音响" />
+
+            <Button
+                android:id="@+id/btn_zhexian"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_zhexian"
+                android:text="折线" />
+
+            <Button
+                android:id="@+id/btn_zhezhi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_zhezhi"
+                android:text="折纸" />
+
+            <Button
+                android:id="@+id/btn_men"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_men"
+                android:text="门" />
+
+            <Button
+                android:id="@+id/btn_motuoche"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_motuoche"
+                android:text="摩托车" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/btn_qianbi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_qianbi"
+                android:text="铅笔" />
+
+            <Button
+                android:id="@+id/btn_ren"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_ren"
+                android:text="人" />
+
+            <Button
+                android:id="@+id/btn_aixin"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_aixin"
+                android:text="爱心" />
+
+            <Button
+                android:id="@+id/btn_yinfu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_yinfu"
+                android:text="音符" />
+
+            <Button
+                android:id="@+id/btn_maozi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_maozi"
+                android:text="帽子" />
+
+            <Button
+                android:id="@+id/btn_neicunka"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_neicunka"
+                android:text="内存卡" />
+
+            <Button
+                android:id="@+id/btn_pukepai"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_pukepai"
+                android:text="扑克牌" />
+
+            <Button
+                android:id="@+id/btn_reqiqiu"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_reqiqiu"
+                android:text="热气球" />
+
+            <Button
+                android:id="@+id/btn_moshubang"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_moshubang"
+                android:text="魔术棒" />
+
+            <Button
+                android:id="@+id/btn_hongqi"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_hongqi"
+                android:text="红旗" />
+
+            <Button
+                android:id="@+id/btn_dianshiji"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_dianshiji"
+                android:text="电视机" />
+
+            <Button
+                android:id="@+id/btn_biaoqian"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_biaoqian"
+                android:text="标签" />
+
+            <Button
+                android:id="@+id/btn_dengpao"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_dengpao"
+                android:text="灯泡" />
+
+            <Button
+                android:id="@+id/btn_gongju"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_gongju"
+                android:text="工具" />
+
+            <Button
+                android:id="@+id/btn_xiangpian"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_xiangpian"
+                android:text="相片" />
+
+            <Button
+                android:id="@+id/btn_youqitong"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_youqitong"
+                android:text="油漆桶" />
+
+            <Button
+                android:id="@+id/btn_maikefeng"
+                style="@style/GraffitiButton4"
+                android:drawableTop="@drawable/pic_maikefeng"
+                android:text="麦克风" />
+        </TableRow>
+    </TableLayout>
+
+</HorizontalScrollView>

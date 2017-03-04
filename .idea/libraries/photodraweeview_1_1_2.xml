@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="photodraweeview-1.1.2">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/me.relex/photodraweeview/1.1.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/me.relex/photodraweeview/1.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/moments/build/intermediates/exploded-aar/me.relex/photodraweeview/1.1.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/me.relex/photodraweeview/1.1.2/9b0307b076fcba31056730fea5c34b377af6c2cb/photodraweeview-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

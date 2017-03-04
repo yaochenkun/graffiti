@@ -1,0 +1,30 @@
+ <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 主画布 -->
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/relay_main" />
+    </FrameLayout>
+    <!-- 抽屉布局 -->
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:orientation="vertical" >
+
+        <include
+            layout="@layout/drawer_main" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

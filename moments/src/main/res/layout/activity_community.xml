@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0"
+                android:visibility="gone"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/lightgrey"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/community_radiobtn_chat"
+                    style="@style/TabButton"
+                    android:checked="true"
+                    android:drawableTop="@drawable/selector_tab_chat"
+                    android:text="消息"
+                    android:onClick="onChatBtn"/>
+
+                <RadioButton
+                    android:id="@+id/community_radiobtn_relation"
+                    style="@style/TabButton"
+                    android:drawableTop="@drawable/selector_tab_relation"
+                    android:text="关系"
+                    android:onClick="onRelationBtn"/>
+
+                <RadioButton
+                    android:id="@+id/community_radiobtn_circle"
+                    style="@style/TabButton"
+                    android:drawableTop="@drawable/selector_tab_circle"
+                    android:text="动态"
+                    android:onClick="onCircleBtn"/>
+
+                <RadioButton
+                    android:id="@+id/community_radiobtn_find"
+                    style="@style/TabButton"
+                    android:drawableTop="@drawable/selector_tab_find"
+                    android:text="发现"
+                    android:onClick="onFindBtn"/>
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>
