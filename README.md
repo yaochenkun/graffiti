@@ -3,14 +3,14 @@ A Graffiti and Painting APP with community, instant message, moments and any oth
 一款主打涂鸦绘图的APP，同时具备社区、即时通信、朋友圈等社交功能。现在我们仍在研发它的社交功能。
 
 ## Screenshot
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2017/01/graffiti.jpg)
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2017/01/momentsss.png)
+![](http://yaochenkun.cn/wp-content/uploads/2017/01/graffiti.jpg)
+![](http://yaochenkun.cn/wp-content/uploads/2017/01/momentsss.png)
 
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2017/01/moments.png)
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2017/01/momentss.png)
+![](http://yaochenkun.cn/wp-content/uploads/2017/01/moments.png)
+![](http://yaochenkun.cn/wp-content/uploads/2017/01/momentss.png)
 
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2017/01/moments4.png)
-![](http://yaochenkun.cn/wordpress/wp-content/uploads/2017/01/moments2.png)
+![](http://yaochenkun.cn/wp-content/uploads/2017/01/moments4.png)
+![](http://yaochenkun.cn/wp-content/uploads/2017/01/moments2.png)
 
 ## Functions
 ### Module1:graffiti
@@ -56,10 +56,10 @@ Just download [Graffiti.apk](https://github.com/yaochenkun/Graffiti/blob/master/
 
 ## For More
 If you want to learn more about the __interfaces or functions__ of this magical APP, you could visit the site below in my blog: <br>
-* [基于多通道交互技术的绘图APP-意绘](http://yaochenkun.cn/wordpress/index.php/2016/07/11/yihui_article/)
+* [基于多通道交互技术的绘图APP-意绘](http://yaochenkun.cn/index.php/2016/07/11/yihui_article/)
 
 If you want to roughly learn __'How to develop this APP'__, you could visit the following sites in my blog:
-* [Android绘图软件开发(1)-框架概述](http://yaochenkun.cn/wordpress/index.php/2016/07/19/paintersum_article/)
-* [Android绘图软件开发(2)-图形的编辑操作实现](http://yaochenkun.cn/wordpress/index.php/2016/07/19/editpel_article/)
-* [Android绘图软件开发(3)-Undo/Redo的栈式实现](http://yaochenkun.cn/wordpress/index.php/2016/07/19/undoredo_article/)
-* [Android绘图软件开发(4)-扫描线种子填充算法](http://yaochenkun.cn/wordpress/index.php/2016/07/19/scanline_article/)
+* [Android绘图软件开发(1)-框架概述](http://yaochenkun.cn/index.php/2016/07/19/paintersum_article/)
+* [Android绘图软件开发(2)-图形的编辑操作实现](http://yaochenkun.cn/index.php/2016/07/19/editpel_article/)
+* [Android绘图软件开发(3)-Undo/Redo的栈式实现](http://yaochenkun.cn/index.php/2016/07/19/undoredo_article/)
+* [Android绘图软件开发(4)-扫描线种子填充算法](http://yaochenkun.cn/index.php/2016/07/19/scanline_article/)
