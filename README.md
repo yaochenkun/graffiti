@@ -59,7 +59,7 @@ If you want to learn more about the __interfaces or functions__ of this magical 
 * [基于多通道交互技术的绘图APP-意绘](http://yaochenkun.site/index.php/2016/07/11/yihui_article/)
 
 If you want to roughly learn __'How to develop this APP'__, you could visit the following sites in my blog:
-* [Android绘图软件开发(1)-框架概述](http://yaochenkun.cn/index.php/2016/07/19/paintersum_article/)
-* [Android绘图软件开发(2)-图形的编辑操作实现](http://yaochenkun.cn/index.php/2016/07/19/editpel_article/)
-* [Android绘图软件开发(3)-Undo/Redo的栈式实现](http://yaochenkun.cn/index.php/2016/07/19/undoredo_article/)
-* [Android绘图软件开发(4)-扫描线种子填充算法](http://yaochenkun.cn/index.php/2016/07/19/scanline_article/)
+* [Android绘图软件开发(1)-框架概述](http://yaochenkun.site/index.php/2016/07/19/paintersum_article/)
+* [Android绘图软件开发(2)-图形的编辑操作实现](http://yaochenkun.site/index.php/2016/07/19/editpel_article/)
+* [Android绘图软件开发(3)-Undo/Redo的栈式实现](http://yaochenkun.site/index.php/2016/07/19/undoredo_article/)
+* [Android绘图软件开发(4)-扫描线种子填充算法](http://yaochenkun.site/index.php/2016/07/19/scanline_article/)
